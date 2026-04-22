@@ -1,0 +1,9 @@
+# ISSUE BOOK
+def issue_books():
+    name = input("enter the book name: ")
+    if name in books:
+        books.remove(name)
+        issued_books.append(name)
+        print("book issued")
+    else:
+        print("book not available")

@@ -1,0 +1,26 @@
+# MAIN BODY
+def library():
+    while True:
+        print("\n1. add books")
+        print("2. show books")
+        print("3. issue books")
+        print("4. return books")
+        print("5. exit")
+
+        choice = int(input("enter your choice: "))
+
+        if choice == 1:
+            add_books()
+        elif choice == 2:
+            show_books()
+        elif choice == 3:
+            issue_books()
+        elif choice == 4:
+            return_books()
+        elif choice == 5:
+            print("thank you")
+            break
+        else:
+            print("invalid choice")
+
+library()

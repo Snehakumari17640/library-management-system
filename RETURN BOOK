@@ -1,3 +1,4 @@
+FROM UTILS IMPORT ISSUED_BOOKS,BOOKS
 def return_books():
     name = input("enter the book name: ")
     if name in issued_books:

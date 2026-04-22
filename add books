@@ -1,0 +1,5 @@
+ ADD BOOKS
+def add_books():
+    name = input("enter the book name: ")
+    books.append(name)
+    print("book added")

@@ -1,0 +1,7 @@
+def show_books():
+    if len(books) == 0:
+        print("no books available")
+    else:
+        print("books available")
+        for b in books:
+            print(b)
